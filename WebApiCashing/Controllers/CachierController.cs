@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using WebApiCaching.Services.Contracts;
+﻿using Cachier.net.Services.Contracts;
+using Microsoft.AspNetCore.Mvc;
 
-namespace WebApiCaching.Controllers;
+namespace Cachier.net.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]

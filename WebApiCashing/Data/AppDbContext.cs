@@ -1,7 +1,7 @@
+using Cachier.net.Models;
 using Microsoft.EntityFrameworkCore;
-using WebApiCaching.Models;
 
-namespace WebApiCaching.Data;
+namespace Cachier.net.Data;
 
 public class AppDbContext : DbContext
 {

@@ -1,6 +1,6 @@
 using StackExchange.Redis;
 
-namespace WebApiCaching.Services.Contracts;
+namespace Cachier.net.Services.Contracts;
 
 public interface ICacheService
 {

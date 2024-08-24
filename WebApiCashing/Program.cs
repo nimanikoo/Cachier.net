@@ -1,4 +1,4 @@
-using WebApiCaching.Extensions;
+using Cachier.net.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.

@@ -1,11 +1,11 @@
+using Cachier.net.Data;
+using Cachier.net.Services;
+using Cachier.net.Services.Contracts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using StackExchange.Redis;
-using WebApiCaching.Data;
-using WebApiCaching.Services;
-using WebApiCaching.Services.Contracts;
 
-namespace WebApiCaching.Extensions;
+namespace Cachier.net.Extensions;
 
 public static class ApplicationExtensions
 {

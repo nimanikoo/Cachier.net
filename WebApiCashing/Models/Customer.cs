@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace WebApiCaching.Models;
+namespace Cachier.net.Models;
 
 public class Customer
 {

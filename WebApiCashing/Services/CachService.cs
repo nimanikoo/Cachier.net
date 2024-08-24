@@ -1,7 +1,7 @@
-﻿using StackExchange.Redis;
-using WebApiCaching.Services.Contracts;
+﻿using Cachier.net.Services.Contracts;
+using StackExchange.Redis;
 
-namespace WebApiCaching.Services;
+namespace Cachier.net.Services;
 
 public class CacheService(IConnectionMultiplexer connectionMultiplexer, ILogger<CacheService> logger)
     : ICacheService
