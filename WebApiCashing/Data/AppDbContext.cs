@@ -1,14 +1,13 @@
+using Cachier.net.Models;
 using Microsoft.EntityFrameworkCore;
-using WebApiCashing.Models;
 
-namespace WebApiCashing.Data
+namespace Cachier.net.Data;
+
+public class AppDbContext : DbContext
 {
-    public class AppDbContext : DbContext
+    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
     {
-
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
-        { }
-        public DbSet<Customer> Customers { get; set; }
-
     }
+
+    public DbSet<Customer> Customers { get; set; }
 }
