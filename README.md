@@ -1,6 +1,4 @@
-Here’s the updated `README.md` with your GitHub username:
 
-```markdown
 # Cachier
 
 **Cachier** is a .NET-based application that leverages Redis for efficient caching and data management. It supports various Redis operations including strings, hashes, lists, sets, sorted sets, hyperloglogs, transactions, and pub/sub functionality.
